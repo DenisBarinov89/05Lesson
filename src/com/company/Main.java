@@ -24,7 +24,7 @@ public class Main {
         for (int i = 0; i < moneyBook.length; i++) {
             allExpenses = allExpenses + moneyBook[i];
         }
-        System.out.println("Сумма трат за месяц составила " + allExpenses + " руб.");
+        System.out.println("Сумма трат за месяц составила: " + allExpenses + " руб.");
 
         //Задание 2
         int minSpend = moneyBook[0];
